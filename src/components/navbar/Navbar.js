@@ -5,7 +5,7 @@ import { Context } from '../../context/Context';
 
 export default function Navbar() {
   const { user, dispatch } = useContext(Context);
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://blog-backend-m77s.onrender.com/images/"
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   };
@@ -58,7 +58,7 @@ export default function Navbar() {
               </li>
             </ul>
           )}
-          <i className="topSearchIcon fas fa-search"></i>
+          {/* <i className="topSearchIcon fas fa-search"></i> */}
         </div>
       </div>
   )

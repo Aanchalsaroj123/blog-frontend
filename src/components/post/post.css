@@ -59,3 +59,36 @@
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
   }
+
+  
+@media screen and (max-width: 768px) {
+  .post {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    /* background-color: aqua; */
+  }
+
+  .postImg {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+  }
+
+  .postCat {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .postTitle {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .postDate {
+    margin-top: 10px;
+  }
+
+  .postDesc {
+    margin-top: 10px;
+  }
+}

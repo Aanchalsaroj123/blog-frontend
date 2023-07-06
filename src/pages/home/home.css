@@ -4,3 +4,10 @@
   .headd{
     height: 109vh;
   }
+
+    
+@media screen and (max-width: 768px) {
+  .headd{
+    height: auto;
+  }
+}
